@@ -1,0 +1,54 @@
+.profile-container{
+    width: 300px;
+    background-color:seagreen;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    animation-name: user-card;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes user-card {
+    0%   {background-color: red;}
+    25%  {background-color: green;}
+    50%  {background-color: blue;}
+    100% {background-color: orangered;}
+  }
+.profile-img{
+    width: 60px;
+    margin-bottom: 10px;
+}
+.profile-heading{
+    font-size: 25px;
+    color: #fff;
+    font-family: Roboto;
+}
+.profile-bio{
+    font-size: 18px;
+    font-family: Roboto;
+    color: #fff;
+}
+
+.retry-button{
+    border: none;
+    background-color: #6366f1;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.user-profile-card-container{
+    display: flex;
+    margin: 15px 0px;
+}
+
+@media screen and (max-width:768px) {
+    .user-profile-card-container{
+        display: flex;
+        justify-content: center;
+    }   
+}

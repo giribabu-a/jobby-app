@@ -1,0 +1,109 @@
+.auth-container{
+    background-color: black;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{
+    background-color: #272727;
+    width: 50%;
+    border-radius: 10px;
+    padding: 30px 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width:780px) {
+    .card-container{
+        width: 80%;
+    }
+}
+.website-logo-container{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main-btns{
+    color: white;
+    background-color: #6366f1;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+.btn-off{
+    background-color: #64748b;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+   
+    width: 100%;
+    padding: 10px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0px;
+}
+.label{
+    color: #f1f5f9;
+    margin: 5px;
+    font-family: Roboto;
+}
+.user-input{
+    background-color: transparent;
+    color: #f1f5f9;
+    border: 2px solid #f1f5f9;
+    outline: 0px;
+    border-radius: 5px;
+    padding: 8px 15px;
+    width: 50%;
+}
+.user-pwd-container{
+    background-color: transparent;
+    color: #f1f5f9;
+    border: 2px solid #f1f5f9;
+    outline: 0px;
+    border-radius: 5px;
+    width: 50%;
+    padding: 8px 12px;
+}
+.user-pwd-input{
+    border: none;
+    background-color: transparent;
+    outline: 0px;
+    color: #f1f5f9;
+}
+.eye-btn{
+    background-color: transparent;
+    border: none;
+    color: #f1f5f9;
+}
+.login-btn{
+    background-color: #6366f1;
+    border: none;
+    color: #f1f5f9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 30%;
+}
+.error-msg{
+    color: red;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+@media screen and (max-width:590px) {
+    .user-input{
+        width: 80%;
+    }
+    .user-pwd-container{
+        width: 80%;
+    }
+}

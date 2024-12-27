@@ -1,0 +1,55 @@
+.similar-job-container{
+    background-color: #475569;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+.logo-container{
+    display: flex;
+    margin: 10px 0px;
+}
+.company-logo{
+    width: 60px;
+    margin-right: 20px;
+}
+.similar-job-title{
+    font-size: 25px;
+    font-weight: 500;
+}
+.rating-container{
+    display: flex;
+}
+.rating-logo{
+    display: flex;
+}
+.histar-icon{
+    font-size: 25px;
+    color: orange;
+}
+
+.descr-heading{
+    font-size: 22px;
+    text-align: left;
+}
+.similar-job-desc{
+    text-align: justify;
+}
+
+.loc-emptype-container{
+    display: flex;
+}
+.location-container{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.loc-dot-icon{
+    margin: 0px 5px;
+}
+
+@media screen and (max-width:560px) {
+    .similar-job-title{
+        font-size: 20px;
+    }
+}
